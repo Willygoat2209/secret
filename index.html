@@ -11,14 +11,27 @@
       background-color: #f4f4f4;
     }
 
+    .banner {
+      background-color: #f0c040; /* Clyde yellow */
+      color: #333;
+      text-align: center;
+      padding: 10px;
+      font-weight: bold;
+      font-size: 1.2rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
     iframe {
       border: none;
       width: 100vw;
-      height: 100vh;
+      height: calc(100vh - 50px); /* Adjust height to accommodate the banner */
     }
   </style>
 </head>
 <body>
+  <div class="banner">
+    Sponsored by Clyde 😊
+  </div>
   <iframe src="https://english.translation.sovdat.si/projects.html" title="Sovdat Translation Projects"></iframe>
 </body>
 </html>
